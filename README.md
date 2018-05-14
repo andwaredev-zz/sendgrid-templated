@@ -2,6 +2,10 @@
 
 `sendgrid-templated` extends `@sendgrid/client` and `@sendgrid/helpers` to allow for easy use with html templates and data injection.
 
+### Installation
+
+Use `npm i sendgrid-templated` to install the package via NPM.
+
 ### Useage
 
 ```js
