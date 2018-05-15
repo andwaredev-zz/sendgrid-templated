@@ -67,7 +67,6 @@ export default class Email {
   }
 
   public send(): Promise<[ClientResponse, any]> {
-    console.log(JSON.stringify(this.mail.toJSON()));
     return this.client
       .request({
         method: "POST",

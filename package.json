@@ -1,6 +1,6 @@
 {
   "name": "sendgrid-templated",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sendgrid extension for easy use with html templates and data injection.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

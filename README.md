@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/andrew-ware/sendgrid-templated.svg?branch=master)](https://travis-ci.org/andrew-ware/sendgrid-templated)
+[![Coverage Status](https://coveralls.io/repos/github/andrew-ware/sendgrid-templated/badge.svg?branch=master)](https://coveralls.io/github/andrew-ware/sendgrid-templated?branch=master)
+
 # sendgrid-templated
 
 `sendgrid-templated` extends `@sendgrid/client` and `@sendgrid/helpers` to allow for easy use with html templates and data injection.
