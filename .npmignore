@@ -1,5 +1,7 @@
-__mocks__
-src
+.travis.yml
 jest.config.js
 tslint.json
 tsconfig.json
+__mocks__
+coverage
+src

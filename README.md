@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/andrew-ware/sendgrid-templated.svg?branch=master)](https://travis-ci.org/andrew-ware/sendgrid-templated)
+[![npm version](https://badge.fury.io/js/sendgrid-templated.svg)](https://badge.fury.io/js/sendgrid-templated)
 [![Coverage Status](https://coveralls.io/repos/github/andrew-ware/sendgrid-templated/badge.svg?branch=master)](https://coveralls.io/github/andrew-ware/sendgrid-templated?branch=master)
 
 # sendgrid-templated
