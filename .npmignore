@@ -1,0 +1,5 @@
+__mocks__
+src
+jest.config.js
+tslint.json
+tsconfig.json
