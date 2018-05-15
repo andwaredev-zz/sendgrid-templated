@@ -1,8 +1,7 @@
 {
   "name": "sendgrid-templated",
   "version": "0.0.2",
-  "description":
-    "Sendgrid extension for easy use with html templates and data injection.",
+  "description": "Sendgrid extension for easy use with html templates and data injection.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -33,6 +32,7 @@
   "devDependencies": {
     "@types/jest": "^22.2.3",
     "@types/lodash.get": "^4.4.3",
+    "coveralls": "^3.0.1",
     "jest": "^22.4.3",
     "rimraf": "^2.6.2",
     "ts-jest": "^22.4.6",
