@@ -29,7 +29,7 @@ export default class Email {
     });
 
     if (this.configuration.template) {
-      this.mail.setSubstitutionWrappers(
+      this.personalization.setSubstitutionWrappers(
         get(this.configuration, ["template", "wrappers"], ["{{", "}}"]) // default to {{ }}
       );
       this.setTemplateData(get(this.configuration, ["template", "data"], {}));
@@ -67,6 +67,7 @@ export default class Email {
   }
 
   public send(): Promise<[ClientResponse, any]> {
+    console.log(JSON.stringify(this.mail.toJSON()));
     return this.client
       .request({
         method: "POST",

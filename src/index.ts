@@ -1,3 +1,3 @@
-import { Email } from "./classes";
+import Email from "./classes/email";
 
-module.exports = Email;
+export default Email;

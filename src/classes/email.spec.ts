@@ -55,7 +55,10 @@ describe("Email", () => {
     });
 
     it("should set substitutionWrappers from template.wrappers", () => {
-      expect(email.mail).toHaveProperty("substitutionWrappers", wrappers);
+      expect(email.personalization).toHaveProperty(
+        "substitutionWrappers",
+        wrappers
+      );
     });
 
     it("should add substitutions from template.data", () => {
